@@ -9,19 +9,13 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/address"
-        android:hint="Введите адрес"/>
-    <EditText
-        android:layout_margin="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/coordinate"
-        android:hint="Введите координаты"/>
+        android:id="@+id/edit"
+        android:hint="Введите адрес или координаты"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/OK"
-        android:text="OK"
+        android:text="SEARCH"
         android:onClick="onClick"/>
 
 
